@@ -71,6 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controlador\ServidorFatek.cs" />
+    <Compile Include="Modelo\ServidorDB.cs" />
     <Compile Include="Vista\CrearRecetaProceso.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,7 +84,7 @@
     <Compile Include="Vista\FormCrearProcesos.Designer.cs">
       <DependentUpon>FormCrearProcesos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Modelo\Funcion.cs" />
+    <Compile Include="Modelo\FuncionesCubaPrincipal.cs" />
     <Compile Include="Vista\FormCrearProcesos2.cs">
       <SubType>Form</SubType>
     </Compile>
